@@ -52,13 +52,14 @@ margin: 0%;
   }
 
   #button{
+    border: none;
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    background-color: red;
-    padding: 15px;
+    background-color: rgb(255, 0, 64);
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -66,11 +67,254 @@ margin: 0%;
     border-radius: 10px;
     cursor: pointer;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 15px;
     color: rgb(255, 255, 255);
     
-  }.img{
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
+  }
+  .img{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
     width: 90%;
   }
+  .donation-apply{
+text-align: center;
+
+
+  }
+  .display-alin{
+
+    display: flex;
+  justify-content: space-evenly;  
+}
+
+
+
+.buttonx {
+  background-color: #d9e0d9;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #d9e0d9;} 
+.button3 {background-color: #d9e0d9;}
+.button4 {background-color: #d9e0d9; }
+.button5 {background-color: #d9e0d9;} 
+
+.button2:hover{
+  background-color: #f70909;
+  color: #d9e0d9;
+}
+
+p{
+  color: #000000;
+}
+
+#button2{
+  border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background-color: rgb(255, 0, 64);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.donation-apply1{
+  text-align: center;
+  
+  
+    }
+
+
+    .full {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+/* 
+    body {
+      background-color: #151320;
+    } */
+    
+    section {
+      height: 400px;
+      width: 100%;
+      display: flex;
+      padding: 0 4em;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .container.xp {
+      perspective: 1000px;
+      height: 28vh;
+      width: 30%;
+      cursor: pointer;
+    }
+
+    .card {
+      transform-style: preserve-3d;
+      height: 100%;
+      width: 100%;
+      transition: 0.5s ease;
+    }
+    .front,
+    .back {
+      height: 100%;
+      width: 100%;
+      transform-style: preserve-3d;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 0.4em;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      backface-visibility: hidden;
+    }
+    .front {
+      background: linear-gradient(to right, #e2c8f7, #f0b5e6);
+    }
+
+
+    
+    .front img {
+      width: 5em;
+    }
+    .content {
+      transform: translateZ(60px);
+    }
+    .content h3 {
+      font-size: 22px;
+      margin-top: 1em;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    .content p {
+      font-size: 14px;
+      line-height: 2em;
+      letter-spacing: 0.02em;
+      padding: 0 3em;
+    }
+    .back {
+      background-color: #28253a;
+      transform: rotateX(180deg);
+    }
+    /* .container:hover .card {
+      transform: rotateX(180deg);
+    } */
+    @media screen and (min-width: 992px) {
+      section {
+        padding: 0 1em;
+      }
+      .containerp {
+        flex-basis: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1.5em;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.be_humble{
+
+  color: rgb(237, 100, 100);
+}
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(19, 19, 19);
+      color: rgb(36, 116, 5);
+      
+    }
+
+/* .box-one {
+  height: 55px;
+
+  text-align: center;
+  background-color:#ebe8e8;
+  padding:30px;
+border-radius: 5px;}
+
+  .box-two{
+    
+    height: 55px;
+
+    text-align: center;
+    background-color:#ebe8e8;
+    padding:30px;
+  border-radius: 5px;
+}
+
+  .box-two :hover{
+    height: 55px;
+    padding:30px;
+    background-color:red;
+
+  }
+
+    .box-three{ height: 55px;
+
+      text-align: center;
+      background-color:#ebe8e8;
+      padding:30px;
+    border-radius: 5px;}
+
+.box-four{
+  height: 55px;
+
+  text-align: center;
+  background-color:#ebe8e8;
+  padding:30px;
+border-radius: 5px;}
+
+.box-five{
+  height: 55px;
+
+  text-align: center;
+  background-color:#ebe8e8;
+  padding:30px;
+border-radius: 5px;
+
+} */
+
+
+  
