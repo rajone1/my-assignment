@@ -2,7 +2,10 @@ body{
 font-family:'Roboto Slab', serif;
 margin: 0%;
 
+
+
 }
+
 .container {
     position: relative;
     text-align: center;
@@ -72,8 +75,8 @@ margin: 0%;
     
   }
   .img{
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
     width: 90%;
   }
   .donation-apply{
@@ -206,14 +209,19 @@ p{
     .content {
       transform: translateZ(60px);
     }
+
+    .content img{
+      height: 30px;
+      width: 30px;
+    }
     .content h3 {
-      font-size: 22px;
+      font-size: 18px;
       margin-top: 1em;
       font-weight: 600;
       letter-spacing: 0.04em;
     }
     .content p {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 2em;
       letter-spacing: 0.02em;
       padding: 0 3em;
@@ -256,6 +264,8 @@ p{
 .be_humble{
 
   color: rgb(237, 100, 100);
+  font-family: 'Lobster', cursive;
+
 }
 
     footer {
